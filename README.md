@@ -1,7 +1,7 @@
 # GBG 
 
 ## Introduction
-GBG is a framework for **General Board Game** playing. GBG is suitable for arbitrary 1-
+GBG is a framework for **General Board Game** playing. GBG is written in Java. GBG is suitable for arbitrary 1-
 player, 2-player and n-player board games. It provides a set of agents (**AI**’s) which can be applied to any such game. 
 New games can be coded following certain interfaces and then all agents of the GBG framework are available for that game. 
 New AI agents can be coded following certain other interfaces. Then, the new agent can be tested on all 
@@ -38,17 +38,16 @@ How to cure: Set this option in "Run Dialog - Arguments - VM-Arguments"
 ```
 then the program gets 512 MB heap space and the error is gone.
 
-If the JAR file commons-compress-1.9.jar is not on your system, download it from 
+If the JAR file commons-compress-1.9.jar is not on your system, locate it from [lib/commons-compress-1.9](lib/commons-compress-1.9) or download it from 
 	 [https://commons.apache.org/proper/commons-compress/download_compress.cgi](https://commons.apache.org/proper/commons-compress/download_compress.cgi)
-This is needed for Add JARs... above and for the imports in agentIO/LoadSaveTD.java:
+This is needed for Add JARs... above and for the imports in `agentIO/LoadSaveTD.java`:
 ```
 	import org.apache.commons.compress.archivers.ArchiveException;
 ```
-and similar
+and similar.
 
 JFreeChart is under Eclipse normally available as User Library (see Add Library... above). 
-If not, follow the tipps in 
->	C:\installs\JFreeChart\jfreechart-1.0.17-install.pdf, p. 31-35.
+If not, follow the tipps in [jfreechart-1.0.17-install.pdf](lib\jfreechart-1.0.19\jfreechart-1.0.17-install.pdf), p. 31-35.
 
 If this PDF is not available locally, download it from [https://sourceforge.net/projects/jfreechart/files/2.%20Documentation/1.0.17/jfreechart-1.0.17-install.pdf](https://sourceforge.net/projects/jfreechart/files/2.%20Documentation/1.0.17/jfreechart-1.0.17-install.pdf)
 
