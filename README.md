@@ -44,10 +44,8 @@ and similar
 
 JFreeChart is under Eclipse normally available as User Library (see Add Library... above). 
 If not, follow the tipps in 
-	C:\installs\JFreeChart\jfreechart-1.0.17-install.pdf, p. 31-35.
-If this PDF is not available locally, download it from
-[https://sourceforge.net/projects/jfreechart/files/2.%20Documentation/1.0.17/jfreechart-1.0.17-install.pdf]
-(https://sourceforge.net/projects/jfreechart/files/2.%20Documentation/1.0.17/jfreechart-1.0.17-install.pdf)
+>	C:\installs\JFreeChart\jfreechart-1.0.17-install.pdf, p. 31-35.
+If this PDF is not available locally, download it from [https://sourceforge.net/projects/jfreechart/files/2.%20Documentation/1.0.17/jfreechart-1.0.17-install.pdf](https://sourceforge.net/projects/jfreechart/files/2.%20Documentation/1.0.17/jfreechart-1.0.17-install.pdf)
 
 
 ## Internal
