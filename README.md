@@ -46,13 +46,12 @@ JFreeChart is under Eclipse normally available as User Library (see Add Library.
 If not, follow the tipps in 
 	C:\installs\JFreeChart\jfreechart-1.0.17-install.pdf, p. 31-35.
 If this PDF is not available locally, download it from
-	[http://download2.polytechnic.edu.na/pub4/sourceforge/j/jf/jfreechart/2. Documentation/1.0.17/jfreechart-1.0.17-install.pdf]
-	(http://download2.polytechnic.edu.na/pub4/sourceforge/j/jf/jfreechart/2. Documentation/1.0.17/jfreechart-1.0.17-install.pdf)
+[http://download2.polytechnic.edu.na/pub4/sourceforge/j/jf/jfreechart/2. Documentation/1.0.17/jfreechart-1.0.17-install.pdf](http://download2.polytechnic.edu.na/pub4/sourceforge/j/jf/jfreechart/2. Documentation/1.0.17/jfreechart-1.0.17-install.pdf)
 
 
 ## Internal
 
-For JFreeChart, see also hints in notes_java.docx
+For JFreeChart, see also hints in notes_java.docx.
 
 TDSPlayer, backprop net:
 ```
@@ -66,7 +65,7 @@ TDSPlayer, backprop net:
 		 Feature set 4, lambda 0.9: 	S(Minimax) = -0.025 +- 0.06	(** best ever)
 		 Feature set 4, lambda 0.95: 	S(Minimax) = -0.330 +- 0.30
 ```
-	so the best setting is Feature set 4, lambda = 0.8 or 0.9
+so the best setting is Feature set 4, lambda = 0.8 or 0.9
 
 
 RPROP recommended : LIN, with sigmoid
