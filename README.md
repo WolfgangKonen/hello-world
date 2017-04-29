@@ -1,12 +1,16 @@
 # GBG 
 
 ## Introduction
-GBG is a framework for **General Board Game** playing. New games can be coded following certain interfaces and then all AI agents of the GBG 
-framework are available for that game. New AI agents can be coded following certain other interfaces. Then, the new agent can be tested on all 
+GBG is a framework for **General Board Game** playing. GBG is suitable for arbitrary 1-
+player, 2-player and n-player board games. It provides a set of agents (**AI**’s) which can be applied to any such game. 
+New games can be coded following certain interfaces and then all agents of the GBG framework are available for that game. 
+New AI agents can be coded following certain other interfaces. Then, the new agent can be tested on all 
 games implemented in the GBG framework. It can be compared with all other AI agents in the GBG framework. 
 
-For an in-depth description of classes and interfaces in GBG see the  [technical report on GBG](resources/TR-GBG.pdf).  Alternatively you reach 
-the technical report from the program via  `Start GBG - Help - Show TR-GBG.pdf`
+For an in-depth description of classes and interfaces in GBG see the [technical report on GBG](resources/TR-GBG.pdf). This tutorial describes 
+the set of interfaces, abstract and non-abstract classes which help to standardize and implement
+those parts of board game playing and learning that otherwise would be tedious and repetitive parts in coding. 
+Alternatively, you can reach the technical report after starting the GBG framework via  `Help - Show TR-GBG.pdf`
 
 
 ## Starting the framework
@@ -45,6 +49,7 @@ and similar
 JFreeChart is under Eclipse normally available as User Library (see Add Library... above). 
 If not, follow the tipps in 
 >	C:\installs\JFreeChart\jfreechart-1.0.17-install.pdf, p. 31-35.
+
 If this PDF is not available locally, download it from [https://sourceforge.net/projects/jfreechart/files/2.%20Documentation/1.0.17/jfreechart-1.0.17-install.pdf](https://sourceforge.net/projects/jfreechart/files/2.%20Documentation/1.0.17/jfreechart-1.0.17-install.pdf)
 
 
