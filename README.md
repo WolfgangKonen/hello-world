@@ -14,7 +14,7 @@ the technical report from the program via  `Start GBG - Help - Show TR-GBG.pdf`
 (e.g. in Eclipse)  Make a new Eclipse project with build path GBG (this directory, containing src/ and lib/)
 
 1. Project Properties - Java Build Path - Libraries - Add Library... - JCommon & JFreeChart
-2. Project Properties - Java Build Path - Libraries - Add JARs... - SourcGBG/lib/commons-compress-1.9
+2. Project Properties - Java Build Path - Libraries - Add JARs... - SourceGBG/lib/commons-compress-1.9
 3. Start the GUI: Right mouse on LaunchTrainTTT.java - Run - Run As... - Java Application
 4. Optional, to locate help files: Edit .classpath and add line
 ```
@@ -46,18 +46,16 @@ JFreeChart is under Eclipse normally available as User Library (see Add Library.
 If not, follow the tipps in 
 	C:\installs\JFreeChart\jfreechart-1.0.17-install.pdf, p. 31-35.
 If this PDF is not available locally, download it from
-```
 	[http://download2.polytechnic.edu.na/pub4/sourceforge/j/jf/jfreechart/2. Documentation/1.0.17/jfreechart-1.0.17-install.pdf]
 	(http://download2.polytechnic.edu.na/pub4/sourceforge/j/jf/jfreechart/2. Documentation/1.0.17/jfreechart-1.0.17-install.pdf)
-```
-
 
 
 ## Internal
 
-See also hints in notes_java.docx
+For JFreeChart, see also hints in notes_java.docx
 
 TDSPlayer, backprop net:
+```
 	alpha init 0.5, alpha final 0.001, lambda 0.9, w/o sigmoid, epsilon init 0.1, epsilon final 0.0, NumEval 1000, Train games 20000, 10 runs:
 		 Feature set 3, lambda 0.0: 	S(Minimax) = -0.285 +- 0.19
 		 Feature set 3, lambda 0.8: 	S(Minimax) = -0.160 +- 0.14
@@ -67,10 +65,13 @@ TDSPlayer, backprop net:
 		 Feature set 4, lambda 0.8: 	S(Minimax) = -0.030 +- 0.03
 		 Feature set 4, lambda 0.9: 	S(Minimax) = -0.025 +- 0.06	(** best ever)
 		 Feature set 4, lambda 0.95: 	S(Minimax) = -0.330 +- 0.30
+```
 	so the best setting is Feature set 4, lambda = 0.8 or 0.9
 
 
 RPROP recommended : LIN, with sigmoid
+```
 	eta_init 0.5, eta_minus 0.8, lambda 0.7, epsilon init 0.3, epsilon final 0.0, train games 10.000
+```
 often a sudden drop in performance on the last evaluation
 
